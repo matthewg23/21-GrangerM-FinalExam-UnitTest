@@ -1,0 +1,16 @@
+# Add functionality for one case
+# begin with one case at a time
+ - Calling Add with a negative number will throw an exception “negatives not allowed.”
+# Create test for exception thrown
+# Implement functionality
+# Refactor if necessary
+
+#Commit changes to repo and move on to new case
+
+# Add functionality for other case
+- Numbers bigger than 1000 should be ignored.
+# Create test for ignoring numbers > 1000
+# Implement functionality
+# Refactor if necessary
+
+# Commit changes to repo and finish

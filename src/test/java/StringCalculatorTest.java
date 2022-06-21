@@ -3,6 +3,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 
 public class StringCalculatorTest {
@@ -20,8 +21,9 @@ public class StringCalculatorTest {
     }
 
     @Test
-    public void test1() {
-
+    public void testforExceptionThrown() {
+        assertThrows(IllegalArgumentException.class, () -> { calculatorClass.add("-1,5");
+        });
     }
 
 }
