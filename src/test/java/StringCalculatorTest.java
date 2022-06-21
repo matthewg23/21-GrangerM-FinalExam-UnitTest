@@ -26,4 +26,10 @@ public class StringCalculatorTest {
         });
     }
 
+    @Test
+    public void testforNgreaterThanorEqualTo1000() {
+        assertThrows(IllegalArgumentException.class, () -> { calculatorClass.add("1000,5");
+        });
+    }
+
 }
